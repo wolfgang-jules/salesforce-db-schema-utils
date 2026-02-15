@@ -1,0 +1,79 @@
+"_","EntityDefinitionId","QualifiedApiName","Label","DataType","ValueTypeId","Description","NamespacePrefix","PublisherId"
+"[FieldDefinition]","Asset","AccountId","Account","Lookup(Account)","id","","","System"
+"[FieldDefinition]","Asset","Address","Address","Address","address","","","System"
+"[FieldDefinition]","Asset","AssetLevel","Asset Level","Number(9, 0)","integer","","","System"
+"[FieldDefinition]","Asset","AssetProvidedById","Asset Provided By","Lookup(Account)","id","","","System"
+"[FieldDefinition]","Asset","AssetServicedById","Asset Serviced By","Lookup(Account)","id","","","System"
+"[FieldDefinition]","Asset","ContactId","Contact","Lookup(Contact)","id","","","System"
+"[FieldDefinition]","Asset","CreatedById","Created By","Lookup(User)","id","","","System"
+"[FieldDefinition]","Asset","CreatedDate","Created Date","Date/Time","datetime","","","System"
+"[FieldDefinition]","Asset","Description","Description","Long Text Area(32000)","string","","","System"
+"[FieldDefinition]","Asset","DigitalAssetStatus","Digital Asset Status","Picklist","string","","","System"
+"[FieldDefinition]","Asset","ExternalIdentifier","External Id","Text(255)","string","","","System"
+"[FieldDefinition]","Asset","Id","Asset ID","Lookup()","id","","","System"
+"[FieldDefinition]","Asset","InstallDate","Install Date","Date","date","","","System"
+"[FieldDefinition]","Asset","InverterLogicalID__c","Inverter Logical Id","Text(255)  (External ID)","string","","",""
+"[FieldDefinition]","Asset","IsCompetitorProduct","Competitor Asset","Checkbox","boolean","","","System"
+"[FieldDefinition]","Asset","IsDeleted","Deleted","Checkbox","boolean","","","System"
+"[FieldDefinition]","Asset","IsInternal","Internal Asset","Checkbox","boolean","","","System"
+"[FieldDefinition]","Asset","LastModifiedById","Last Modified By","Lookup(User)","id","","","System"
+"[FieldDefinition]","Asset","LastModifiedDate","Last Modified Date","Date/Time","datetime","","","System"
+"[FieldDefinition]","Asset","LastReferencedDate","Last Referenced Date","Date/Time","datetime","","","System"
+"[FieldDefinition]","Asset","LastViewedDate","Last Viewed Date","Date/Time","datetime","","","System"
+"[FieldDefinition]","Asset","LocationId","Location","Lookup(Location)","id","","","System"
+"[FieldDefinition]","Asset","LogicalSiteID__c","Logical Site ID","Formula (Text)","string","This field specifies the Logical Site Id Related to the Inverter
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","ManufactureDate","Manufacture Date","Date","date","","","System"
+"[FieldDefinition]","Asset","Manufacturer__c","Manufacturer","Text(255)","string","","",""
+"[FieldDefinition]","Asset","ModelNumber__c","Model Number","Text(255)","string","","",""
+"[FieldDefinition]","Asset","Name","Asset Name","Text(255)","string","","","System"
+"[FieldDefinition]","Asset","OnlineStatusBoolean__c","Online Status","Checkbox","boolean","This field specifies the Online status for the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","OnlineStatusFormula__c","Online Status","Formula (Text)","string","This field specifies the Online status of the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","OnlineStatusLastKnownDate__c","Online Status Last Known Date","Date/Time","datetime","This field specifies the Online status of the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","OwnerId","Asset Owner","Lookup(User)","id","","","System"
+"[FieldDefinition]","Asset","ParentId","Parent Asset","Lookup(Asset)","id","","","System"
+"[FieldDefinition]","Asset","PowerStatusBoolean__c","Power Status","Checkbox","boolean","This field specifies the Power status of the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","PowerStatusFormula__c","Power Status","Formula (Text)","string","This field specifies the Power status of the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","PowerStatusLastKnownDate__c","Power Status Last Known Date","Date/Time","datetime","This field specifies the Power status data of the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","PowerStatusText__c","Power Status","Text(64)","string","This field specifies the Power status of the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","Price","Price","Currency(16, 2)","double","","","System"
+"[FieldDefinition]","Asset","Product2Id","Product","Lookup(Product)","id","","","System"
+"[FieldDefinition]","Asset","ProductCode","Product Code","Text(255)","string","","","System"
+"[FieldDefinition]","Asset","ProductDescription","Product Description","Text(4000)","string","","","System"
+"[FieldDefinition]","Asset","ProductFamily","Product Family","Picklist","string","","","System"
+"[FieldDefinition]","Asset","PurchaseDate","Purchase Date","Date","date","","","System"
+"[FieldDefinition]","Asset","Quantity","Quantity","Number(10, 2)","double","","","System"
+"[FieldDefinition]","Asset","RemoteInverterShutdownReason__c","Remote Inverter Shutdown Reason","Text(255)","string","This field specifies the reason for the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-268","",""
+"[FieldDefinition]","Asset","ResultOnlineStatus__c","Result Online Status","Text(255)","string","This field specifies the Result from the server of the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","ResultPowerStatus__c","Result Power Status","Text(255)","string","This field specifies the Power status of the inverter power switch
+Requested by: Mykola.Slobodian
+Related JIRA ticket DATA-210","",""
+"[FieldDefinition]","Asset","RootAssetId","Root Asset","Lookup(Asset)","id","","","System"
+"[FieldDefinition]","Asset","SerialNumber","Serial Number","Text(80)","string","","","System"
+"[FieldDefinition]","Asset","Status","Status","Picklist","string","","","System"
+"[FieldDefinition]","Asset","StatusReason","Status Reason","Picklist","string","","","System"
+"[FieldDefinition]","Asset","StockKeepingUnit","Product SKU","Text(180)","string","","","System"
+"[FieldDefinition]","Asset","SystemModstamp","System Modstamp","Date/Time","datetime","","","System"
+"[FieldDefinition]","Asset","Type__c","Type","Picklist","string","","",""
+"[FieldDefinition]","Asset","UsageEndDate","Usage End Date","Date","date","","","System"
+"[FieldDefinition]","Asset","UserRecordAccessId","Object Access Level","Lookup(User Record Access)","id","","","System"
+"[FieldDefinition]","Asset","Uuid","Unique Identifier","Text(255)","string","","","System"
