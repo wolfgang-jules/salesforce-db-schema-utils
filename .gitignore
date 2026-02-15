@@ -33,3 +33,7 @@ Thumbs.db
 # Project generated files
 generate-new-table-schema/output_files/*.csv
 get-current-table-schema/salesforce_tables/*.csv
+get-current-table-schema/output_files/*.csv
+get-current-table-schema/output/*.csv
+get-current-table-schema/output_tables_schema/*.csv
+get-current-table-schema/tables_schema/*.csv
